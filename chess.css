@@ -12,3 +12,16 @@
 #board tr:nth-child(even) td:nth-child(even) {
     background-color: black;
 }
+
+#board tr:nth-child(1) td, tr:nth-child(2) td{
+    text-align: center;
+    border: 10px white;
+    text-shadow: 1px 0px white, -1px 0px white, 0px 1px white, 0px -1px white;
+    font-size: 24px;
+} 
+#board tr:nth-child(7) td, tr:nth-child(8) td{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 0px black, -1px 0px black, 0px 1px black, 0px -1px black;
+    font-size: 24px;
+}
